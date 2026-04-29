@@ -639,8 +639,8 @@ function createBot() {
 
     bot.loadPlugin(pathfinder);
 
-    // FIX: wire up leaveRejoin module properly
-    setupLeaveRejoin(bot, createBot);
+    // leaveRejoin disabled for testing
+    // setupLeaveRejoin(bot, createBot);
 
     // Connection timeout: 180s for Aternos slow starts
     clearBotTimeouts();
