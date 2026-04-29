@@ -12,7 +12,7 @@
     "try-creative": false
   },
   "position": {
-    "enabled": true,
+    "enabled": false,
     "x": 0,
     "y": 100,
     "z": 0
@@ -24,41 +24,48 @@
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true
+      "sneak": false
     },
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 300,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "anyone here?",
+        "this server is pretty cool",
+        "been playing mc for years lol",
+        "lag is so real rn",
+        "brb grabbing food",
+        "nice build over here",
+        "what gamemode is this",
+        "how do i get diamonds fast",
+        "anyone want to trade?",
+        "gg"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 5000,
+    "max-reconnect-delay": 60000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
-      "speed": 3000
+      "radius": 3,
+      "speed": 4000
     },
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 7000
     },
     "random-jump": {
-      "enabled": true,
-      "interval": 10000
+      "enabled": false,
+      "interval": 15000
     }
   },
   "modules": {
-    "avoidMobs": true,
+    "avoidMobs": false,
     "combat": true,
     "beds": false,
     "chat": true,
